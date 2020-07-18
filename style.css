@@ -6,7 +6,8 @@ html, body{
   }
   #camera, #camera--view, #camera--sensor, #camera--output{
       position: fixed;
-      height: 100%;
+      top:0;
+      height: 80%;
       width: 100%;
       object-fit: cover;
   }
@@ -14,7 +15,7 @@ html, body{
       /*transform: scaleX(-1);
       filter: FlipH;*/
   }
-  #camera--trigger{
+  .camera--trigger{
       width: 200px;
       background-color: black;
       color: white;
