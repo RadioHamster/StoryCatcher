@@ -1,8 +1,9 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Story Catcher</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 <meta
 name="viewport"
@@ -11,7 +12,8 @@ content="width=device-width, initial-scale=1, maximum-scale=1"
 </head>
 <body>
  <!-- Camera -->
-     <main id="camera">
+    <div class="container">
+    <main id="camera">
     <!-- Camera sensor -->
     <canvas id="camera--sensor"></canvas>
     <!-- Camera view -->
@@ -19,11 +21,14 @@ content="width=device-width, initial-scale=1, maximum-scale=1"
     <!-- Camera output -->
     <img src="//:0" alt="" id="camera--output">
     <!-- Camera trigger -->
+    </div>
+    <div class="container">
     <button class="camera--trigger">Take a picture</button>
      <!-- <input type="file" id="files" multiple /><br /><br /> -->
     <button class="camera--trigger" id="send">Upload</button>
     <p id="uploading"></p>
     <progress value="0" max="100" id="progress"></progress>
+    </div>
 
 </main>
 <!-- Reference to your JavaScript file -->
