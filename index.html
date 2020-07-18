@@ -23,5 +23,28 @@
     <!-- Reference to your JavaScript file -->
     <script src="app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script> 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyA8atTXmFZIh52DS_2qJKiwf0jNCkQ75jQ",
+        authDomain: "storycatcher-899bb.firebaseapp.com",
+        databaseURL: "https://storycatcher-899bb.firebaseio.com",
+        projectId: "storycatcher-899bb",
+        storageBucket: "storycatcher-899bb.appspot.com",
+        messagingSenderId: "858403123719",
+        appId: "1:858403123719:web:f861e1162223d0fb3f30a2",
+        measurementId: "G-QS1L38GWGR"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
 </body>
 </html>
